@@ -1,0 +1,89 @@
+ #class1{
+                /* width: 100%;
+                /* height:700px; */
+                /*background-image: url("images.jpg ")
+                 no-repeat center; ; */
+                width:100%;
+                height: 100%;
+                background-image:url("images.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                /* background-size: ; */
+                height:500px;
+
+            }
+            /* .hello{
+            animation: track 2s linear infinite;
+            animation-direction: alternate;
+            }
+            @keyframes track{
+                      from{padding-left: 40opx;}
+                      to{padding-right: 40px;}
+            } */
+            .hello h1{
+    text-transform: uppercase;
+    animation: track 5s linear infinite;
+    /* text-align: center;
+    animation: alternate; */
+    animation-direction: alternate;
+    
+}
+@keyframes track{
+    from{padding-left: 50px;}
+    to{padding-right: 50px;}
+    
+}
+nav{
+    width: 100%;
+    display: inline-flex;
+    height: 50px;
+    position: fixed;
+    overflow: hidden;
+    background: rgba(0,0,0, 0.2);
+    padding: 0;
+    margin: 0;
+
+
+}
+nav a:hover{
+  text-decoration: double;
+  color: blue;
+  /* background-image: linear-gradient(blue 50% , green 50%); */
+  display: inline-block;
+}
+/* nav a::before{
+    content: "";
+    width: 100%;
+border-bottom: blue;
+} */
+nav a{
+    display: inline-flex;
+    font-size: 25px;
+    padding-left: 20px;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+/* a:before{
+    content: "";
+    width: 0%;
+    background-color:blue;
+     transition: all 0.4s linear; 
+    }
+    a:hover::before{
+        width:100%;
+       height: 100%;
+
+    } */
+    /* *{
+        font-family: 'Rubik', sans-serif;
+
+    } */
+    /* nav:hover{
+        background-color:black;
+        color:white; */
+    }
+    /* nav:hover:a{
+    color:white;
+    } */
